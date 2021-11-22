@@ -19,7 +19,7 @@ Webcam.set({
      }
     
      console.log("ml5_version ="+ml5.version);
-     classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/IKk7KI68a/model.json",modelReady);
+     classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/b8MoxR3Gx/model.json",modelReady);
     
      function modelReady(){
     console.log("Model Ready");
