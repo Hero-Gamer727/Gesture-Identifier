@@ -46,17 +46,19 @@
        <span style="font-size: 30px;">&#9997;</span>
        <span style="font-size: 30px;">&#9994;</span> 
         <br>
-        <h4 class=" btn btn-default" style="color: forestgreen;"> Prediction 1-</h4>
-         <br>
-         <h4 class=" btn btn-default" style="color: forestgreen;"> Prediction 2-</h4>
-       </div>
+        <h4 class=" btn btn-default" id="predict1" style="color: forestgreen;"> Prediction 1-</h4>
+        <h4 style="font-size: 50px;"  id="update_emoji1"></h4> 
+        <br>
+         <h4 class=" btn btn-default" id="predict2" style="color: forestgreen;"> Prediction 2-</h4>
+         <h4 style="font-size: 50px;"  id="update_emoji2"></h4>
+        </div>
 
        <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
          <label style="font-size: 20px; color: forestgreen;" class=" btn btn-default">Snapshot - </label>
          <br><br>
          <div id="result" class="camera_element"></div>
          <br><br>
-         <button class="btn btn-success">Predict Gesture</button>
+         <button class="btn btn-success" onclick="predictemotion()">Predict Gesture</button>
        </div>
 
      </center>
